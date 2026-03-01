@@ -7,7 +7,7 @@ const cardArea = document.getElementById('card-area');
 if (flame) {
     flame.addEventListener('click', function() {
         this.style.display = 'none'; // Api mati
-        document.getElementById('headline').innerText = "Happy Birthday Alyaa";
+        document.getElementById('headline').innerText = "HAPPY BIRTHDAY ALYAA";
         alert("HBD, Al. semoga harimu menyenangkan dan apa yang kamu mau terwujud semua, amin");
         alert("ayas anok hadiah kecil gawe umak");
         alert("Go ahead and tap the gift");
@@ -27,4 +27,5 @@ document.getElementById('btnCloseFlower').addEventListener('click', function() {
     flowerOverlay.classList.add('hidden');
     cardArea.classList.remove('hidden');
     document.body.classList.add("not-loaded");
+
 });
